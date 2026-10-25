@@ -1,0 +1,15 @@
+import type { MetadataRoute } from 'next';
+
+import { projects } from '@/content/projects';
+import { site } from '@/content/site';
+
+const sitemap = (): MetadataRoute.Sitemap => [
+  { url: site.url, changeFrequency: 'monthly', priority: 1 },
+  ...projects.map((project) => ({
+    url: `${site.url}/work/${project.slug}`,
+    changeFrequency: 'yearly' as const,
+    priority: 0.8,
+  })),
+];
+
+export default sitemap;

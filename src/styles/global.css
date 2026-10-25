@@ -2,55 +2,39 @@
 @import './tokens.css';
 @import './typography.css' layer(components);
 
-/* Expose tokens to Tailwind utilities so classes and raw CSS stay in sync.
-   Radii and spacing stay as plain custom properties to avoid colliding with
-   Tailwind's own --radius-* / --spacing-* namespaces. */
-@theme inline {
-  --color-paper: var(--paper);
-  --color-paper-raised: var(--paper-raised);
-  --color-paper-sunken: var(--paper-sunken);
-  --color-paper-inverse: var(--paper-inverse);
-  --color-ink: var(--ink);
-  --color-ink-muted: var(--ink-muted);
-  --color-ink-faint: var(--ink-faint);
-  --color-ink-inverse: var(--ink-inverse);
-  --color-rule: var(--rule);
-  --color-rule-strong: var(--rule-strong);
-  --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
-  --color-accent-on: var(--accent-on);
-  --color-signal-live: var(--signal-live);
-
-  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, 'SF Mono', monospace;
-  --font-display: var(--font-instrument), ui-serif, Georgia, serif;
-
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* Type scale lives in @theme so `text-lead` utilities and var(--text-lead)
-   in raw CSS resolve to the same single definition. */
 @theme {
-  --text-meta: clamp(0.6875rem, 0.66rem + 0.14vw, 0.78rem);
-  --text-sm: clamp(0.8125rem, 0.79rem + 0.12vw, 0.875rem);
-  --text-base: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
-  --text-lead: clamp(1.125rem, 1.02rem + 0.52vw, 1.4375rem);
-  --text-h3: clamp(1.375rem, 1.2rem + 0.88vw, 2rem);
-  --text-h2: clamp(2rem, 1.5rem + 2.5vw, 3.75rem);
-  --text-display: clamp(2.75rem, 1.1rem + 8.2vw, 8.5rem);
+  --text-small: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
+  --text-body: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  --text-lede: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  --text-h3: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
+  --text-display: clamp(2.5rem, 1rem + 6.4vw, 7rem);
 }
 
-/* Base reset lives in @layer base: unlayered rules would otherwise beat
-   every Tailwind utility regardless of specificity. */
-@layer base {
-  * {
-    min-width: 0;
-  }
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-ink-invert: var(--ink-invert);
+  --color-fill: var(--fill);
 
+  --font-mono: var(--font-fira-code), ui-monospace, monospace;
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
   *,
   *::before,
   *::after {
     box-sizing: border-box;
+  }
+
+  * {
+    min-width: 0;
   }
 
   html {
@@ -60,14 +44,17 @@
 
   body {
     margin: 0;
-    background-color: var(--paper);
+    background-color: var(--black);
     color: var(--ink);
     font-family: var(--font-sans);
-    font-size: var(--text-base);
+    font-size: var(--text-body);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
     overflow-x: clip;
+  }
+
+  :root[data-theme='light'] body {
+    background-color: var(--white);
   }
 
   h1,
@@ -75,7 +62,7 @@
   h3,
   h4 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   p {
@@ -95,19 +82,16 @@
   }
 
   ::selection {
-    background-color: var(--accent);
-    color: var(--accent-on);
+    background-color: var(--ink);
+    color: var(--ink-invert);
   }
 
-  /* Focus is designed, not defaulted. */
   :focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--ink);
     outline-offset: 3px;
-    border-radius: var(--radius-xs);
+    border-radius: 4px;
   }
 }
-
-/* Layout shell -------------------------------------------------------- */
 
 .shell {
   width: 100%;
@@ -116,64 +100,26 @@
   padding-inline: var(--gutter);
 }
 
-.rule-top {
-  border-top: 1px solid var(--rule);
+/* The page sits inside one large rounded frame, as the reference does. */
+.frame {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-frame);
+  background-color: var(--bg);
+  overflow: clip;
 }
 
-/* Atmosphere ---------------------------------------------------------- */
-
-.grain {
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  pointer-events: none;
-  opacity: var(--grain-opacity);
-  mix-blend-mode: multiply;
-  background-size: 160px 160px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .grain {
-    mix-blend-mode: screen;
-  }
-}
-
-:root[data-theme='dark'] .grain {
-  mix-blend-mode: screen;
-}
-
-/* Reveal primitives --------------------------------------------------- */
-
-@keyframes unmask {
-  from {
-    clip-path: inset(0 0 102% 0);
-    transform: translate3d(0, 0.5em, 0);
-  }
-  to {
-    clip-path: inset(-25% -10% -10% 0);
-    transform: none;
-  }
-}
-
-/* Scroll reveal: a class toggled by IntersectionObserver drives a CSS
-   transition. `.reveal-target` is also the hook the <noscript> guard uses. */
+/* Reveal: toggled by IntersectionObserver, with a noscript guard. */
 .reveal-target {
   opacity: 0;
-  transform: translate3d(0, 1.75rem, 0);
+  transform: translate3d(0, 1.25rem, 0);
   transition:
-    opacity var(--duration-reveal) var(--ease-out-expo) var(--reveal-delay, 0s),
-    transform var(--duration-reveal) var(--ease-out-expo) var(--reveal-delay, 0s);
+    opacity var(--duration-slow) var(--ease) var(--reveal-delay, 0s),
+    transform var(--duration-slow) var(--ease) var(--reveal-delay, 0s);
 }
 
 .reveal-target.is-revealed {
   opacity: 1;
   transform: none;
-}
-
-.unmask {
-  animation: unmask var(--duration-reveal) var(--ease-out-expo) both;
-  animation-delay: var(--reveal-delay, 0ms);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -189,18 +135,8 @@
     transition-duration: 1ms !important;
   }
 
-  /* Never leave revealed content stuck in its hidden start state. */
   .reveal-target {
     opacity: 1;
     transform: none;
-  }
-}
-
-@keyframes marquee {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(-50%, 0, 0);
   }
 }

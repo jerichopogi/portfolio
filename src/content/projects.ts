@@ -64,7 +64,7 @@ export const projects: readonly Project[] = [
       {
         heading: 'The problem',
         body: [
-          'A theme-based storefront had accumulated eleven third-party scripts. Mobile shoppers — two thirds of traffic — were waiting 6s for a usable page.',
+          'A theme-based storefront had accumulated eleven third-party scripts. Mobile shoppers, two thirds of the traffic, were waiting 6s for a usable page.',
         ],
       },
       {

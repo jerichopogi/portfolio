@@ -14,19 +14,19 @@ const readStoredTheme = (): Theme | null => {
   }
 };
 
-const systemTheme = (): Theme =>
-  window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+/** The design is built dark; light is an explicit choice, not the OS default. */
+const DEFAULT_THEME: Theme = 'dark';
 
 /**
  * Resolves the active theme and persists explicit choices. The document
  * attribute is the source of truth so CSS stays in control of the cascade.
  */
 export const useTheme = () => {
-  const [theme, setTheme] = useState<Theme>('light');
+  const [theme, setTheme] = useState<Theme>(DEFAULT_THEME);
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    setTheme(readStoredTheme() ?? systemTheme());
+    setTheme(readStoredTheme() ?? DEFAULT_THEME);
     setIsReady(true);
   }, []);
 

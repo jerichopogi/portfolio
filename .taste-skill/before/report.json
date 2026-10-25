@@ -1,0 +1,3080 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-25T19:25:27.346Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.35,
+    0.18,
+    0.49,
+    0.62,
+    0.33
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 5,
+    "transitions": 11,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4186,
+     "screens": 4.7,
+     "words": 558,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "chars": 42,
+     "lines": 3,
+     "size": 135.7,
+     "vw": 9.4,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.88,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.58,
+     "top": 206,
+     "mixedFonts": [
+      "Instrument Serif",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "lines": 3,
+     "size": 135.7,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "I build web products that earn their keep.",
+      "words": 8,
+      "chars": 42,
+      "lines": 3,
+      "size": 135.7,
+      "vw": 9.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 206,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "6 YRS",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 366,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "40+",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 695,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "12",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.05,
+      "top": 695,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "98",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 695,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1255,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1372,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1490,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "I care less about the framework and more about whether the thing works for the person using it.",
+      "words": 18,
+      "chars": 95,
+      "lines": 3,
+      "size": 60,
+      "vw": 4.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 1821,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Marketing sites that convert",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 2520,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Web applications",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.26,
+      "top": 2520,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Performance & accessibility audits",
+      "words": 4,
+      "chars": 34,
+      "lines": 1,
+      "size": 31.9,
+      "vw": 2.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 2520,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell me what you are building and what it has to achieve.",
+      "words": 12,
+      "chars": 57,
+      "lines": 2,
+      "size": 60,
+      "vw": 4.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3142,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "hello@example.com",
+      "words": 1,
+      "chars": 17,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 3367,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3793,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.25,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      17,
+      23,
+      32,
+      48,
+      60,
+      136,
+      144
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Instrument Serif",
+      "text": "Jericho"
+     },
+     "monoShare": 0.25,
+     "monoProseShare": 0.25,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "·",
+      "Web Developer",
+      "Work",
+      "About",
+      "Services",
+      "Contact"
+     ],
+     "microLabels": 79,
+     "microLabelShare": 0.186,
+     "microSamples": [
+      "Full-stack web developer",
+      "01",
+      "Experience",
+      "yrs",
+      "Based",
+      "Status"
+     ],
+     "upperShare": 0.25,
+     "centerShare": 0,
+     "smallText": 26
+    },
+    "eyebrows": [
+     {
+      "text": "Full-stack web developer",
+      "above": "I build web products that earn their kee",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 158
+     },
+     {
+      "text": "Experience",
+      "above": "6 YRS",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 341
+     },
+     {
+      "text": "03",
+      "above": "I care less about the framework and more",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 1753
+     },
+     {
+      "text": "01",
+      "above": "Marketing sites that convert",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 2484
+     },
+     {
+      "text": "02",
+      "above": "Web applications",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 2484
+     },
+     {
+      "text": "03",
+      "above": "Performance & accessibility audits",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 2484
+     },
+     {
+      "text": "Available for new work",
+      "above": "Tell me what you are building and what i",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.5,
+      "top": 3094
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 158
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 1074
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 1275
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 1125
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 1392
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 1242
+     },
+     {
+      "text": "03",
+      "size": 12.5,
+      "top": 1510
+     },
+     {
+      "text": "03",
+      "size": 12.5,
+      "top": 1360
+     },
+     {
+      "text": "03",
+      "size": 12.5,
+      "top": 1753
+     },
+     {
+      "text": "04",
+      "size": 12.5,
+      "top": 2387
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 2484
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 2484
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0c11",
+     "bodyBgHsl": {
+      "h": 223,
+      "s": 0.26,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#282b33",
+       "top": 2455,
+       "hsl": {
+        "h": 224,
+        "s": 0.12,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f3f1ed",
+       "top": 3046,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a5ac",
+       "share": 0.56
+      },
+      {
+       "color": "#8e929a",
+       "share": 0.19
+      },
+      {
+       "color": "#f0eeea",
+       "share": 0.12
+      },
+      {
+       "color": "#0a0d13",
+       "share": 0.09
+      },
+      {
+       "color": "#f4993c",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f0eeea",
+      "hsl": {
+       "h": 40,
+       "s": 0.17,
+       "l": 0.93
+      },
+      "fg": "#0a0d13"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 42,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "See selected work",
+      "Start a project"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 3,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7",
+      "div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7",
+      "div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.-top-[18%] → radial-gradient(circle, lab(71.6167 29.8489 60.7514 / 0.14) 0%, rgba(0, 0, 0, 0) 68%)",
+      "div.absolute.-left-[12%] → radial-gradient(circle, oklab(0.760005 0.0704083 0.132451 / 0.16) 0%, rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 21,
+     "hairlineSamples": [
+      "div.lg:col-span-4.lg:border-l 396px",
+      "div.mt-[var(--space-xl)].grid 1285px",
+      "div.mt-[var(--space-lg)].border-y 1440px",
+      "header.rule-top.pt-[var(--space-sm)] 1285px",
+      "ul.mt-[var(--space-lg)].border-t 1285px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 2,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2456
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 69,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "geist mono fallback",
+     "instrument serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4186,
+    "margins": {
+     "left": 77,
+     "right": 77
+    },
+    "sections": [
+     {
+      "sel": "section.relative.flex",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 86,
+      "media": 0,
+      "middle": 65,
+      "heading": {
+       "text": "I build web products that",
+       "size": 136,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 46,
+      "textLeft": 0,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.scroll-mt-24",
+      "tag": "section",
+      "top": 900,
+      "height": 679,
+      "words": 100,
+      "media": 0,
+      "middle": 185,
+      "heading": {
+       "text": "Ledgerline",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 77,
+      "right": 77,
+      "textLeft": 77,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.scroll-mt-24",
+      "tag": "section",
+      "top": 1579,
+      "height": 634,
+      "words": 157,
+      "media": 0,
+      "middle": 106,
+      "heading": {
+       "text": "I care less about the framework and more about whe",
+       "size": 60,
+       "tag": "p"
+      },
+      "left": 77,
+      "right": 97,
+      "textLeft": 77,
+      "textRight": 97,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.scroll-mt-24",
+      "tag": "section",
+      "top": 2213,
+      "height": 591,
+      "words": 99,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Marketing sites that convert",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 77,
+      "right": 130,
+      "textLeft": 77,
+      "textRight": 130,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.scroll-mt-24",
+      "tag": "section",
+      "top": 2804,
+      "height": 751,
+      "words": 46,
+      "media": 0,
+      "middle": 16,
+      "heading": {
+       "text": "Tell me what you are building and what it has to a",
+       "size": 60,
+       "tag": "p"
+      },
+      "left": 77,
+      "right": 762,
+      "textLeft": 77,
+      "textRight": 762,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.rule-top.mt-[var(--space-section)]",
+      "tag": "footer",
+      "top": 3712,
+      "height": 474,
+      "words": 14,
+      "media": 0,
+      "middle": 712,
+      "heading": {
+       "text": "Jericho",
+       "size": 144,
+       "tag": "p"
+      },
+      "left": 77,
+      "right": 152,
+      "textLeft": 77,
+      "textRight": 152,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "I build web products that earn their keep.",
+      "size": 136,
+      "top": 206,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 77,
+      "n": 7
+     },
+     {
+      "x": 106,
+      "n": 2
+     },
+     {
+      "x": 534,
+      "n": 2
+     },
+     {
+      "x": 963,
+      "n": 2
+     },
+     {
+      "x": 125,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 14,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.35,
+    0.24,
+    0.36,
+    0.56,
+    0.48
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 5,
+    "transitions": 11,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4465,
+     "screens": 4.4,
+     "words": 555,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "chars": 42,
+     "lines": 2,
+     "size": 80.6,
+     "vw": 10.5,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.88,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.93,
+     "top": 175,
+     "mixedFonts": [
+      "Instrument Serif",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "lines": 2,
+     "size": 80.6,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "I build web products that earn their keep.",
+      "words": 8,
+      "chars": 42,
+      "lines": 2,
+      "size": 80.6,
+      "vw": 10.5,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 175,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "6 YRS",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 402,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "40+",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 928,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "12",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 928,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "98",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.15,
+      "top": 928,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1417,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1542,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1666,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "I care less about the framework and more about whether the thing works for the person using it.",
+      "words": 18,
+      "chars": 95,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 5.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 1954,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Marketing sites that convert",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Web applications",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Performance & accessibility audits",
+      "words": 4,
+      "chars": 34,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell me what you are building and what it has to achieve.",
+      "words": 12,
+      "chars": 57,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 5.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 3560,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "hello@example.com",
+      "words": 1,
+      "chars": 17,
+      "lines": 1,
+      "size": 34.4,
+      "vw": 4.5,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3751,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 92.8,
+      "vw": 12.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 4116,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.25,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      14,
+      17,
+      20,
+      26,
+      34,
+      43,
+      81,
+      93
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 13.6,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 92.8,
+      "vw": 12.1,
+      "font": "Instrument Serif",
+      "text": "Jericho"
+     },
+     "monoShare": 0.25,
+     "monoProseShare": 0.25,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "·",
+      "Web Developer",
+      "Work",
+      "About",
+      "Services",
+      "Contact"
+     ],
+     "microLabels": 79,
+     "microLabelShare": 0.187,
+     "microSamples": [
+      "Full-stack web developer",
+      "01",
+      "Experience",
+      "yrs",
+      "Based",
+      "Status"
+     ],
+     "upperShare": 0.25,
+     "centerShare": 0,
+     "smallText": 26
+    },
+    "eyebrows": [
+     {
+      "text": "Full-stack web developer",
+      "above": "I build web products that earn their kee",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 128
+     },
+     {
+      "text": "Experience",
+      "above": "6 YRS",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 377
+     },
+     {
+      "text": "03",
+      "above": "I care less about the framework and more",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 1887
+     },
+     {
+      "text": "01",
+      "above": "Marketing sites that convert",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "02",
+      "above": "Web applications",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "03",
+      "above": "Performance & accessibility audits",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "Available for new work",
+      "above": "Tell me what you are building and what i",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.6,
+      "top": 3514
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11.6,
+      "top": 128
+     },
+     {
+      "text": "02",
+      "size": 11.6,
+      "top": 1225
+     },
+     {
+      "text": "01",
+      "size": 11.6,
+      "top": 1434
+     },
+     {
+      "text": "02",
+      "size": 11.6,
+      "top": 1559
+     },
+     {
+      "text": "03",
+      "size": 11.6,
+      "top": 1683
+     },
+     {
+      "text": "03",
+      "size": 11.6,
+      "top": 1887
+     },
+     {
+      "text": "04",
+      "size": 11.6,
+      "top": 2781
+     },
+     {
+      "text": "01",
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "02",
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "03",
+      "size": 11.6,
+      "top": 2876
+     },
+     {
+      "text": "05",
+      "size": 11.6,
+      "top": 3399
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0c11",
+     "bodyBgHsl": {
+      "h": 223,
+      "s": 0.26,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#282b33",
+       "top": 2847,
+       "hsl": {
+        "h": 224,
+        "s": 0.12,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f3f1ed",
+       "top": 3466,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a5ac",
+       "share": 0.56
+      },
+      {
+       "color": "#8e929a",
+       "share": 0.19
+      },
+      {
+       "color": "#f0eeea",
+       "share": 0.12
+      },
+      {
+       "color": "#0a0d13",
+       "share": 0.09
+      },
+      {
+       "color": "#f4993c",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f0eeea",
+      "hsl": {
+       "h": 40,
+       "s": 0.17,
+       "l": 0.93
+      },
+      "fg": "#0a0d13"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 42,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "See selected work",
+      "Start a project"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.-top-[18%] → radial-gradient(circle, lab(71.6167 29.8489 60.7514 / 0.14) 0%, rgba(0, 0, 0, 0) 68%)",
+      "div.absolute.-left-[12%] → radial-gradient(circle, oklab(0.760005 0.0704083 0.132451 / 0.16) 0%, rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 17,
+     "hairlineSamples": [
+      "div.mt-[var(--space-xl)].grid 712px",
+      "div.mt-[var(--space-lg)].border-y 768px",
+      "header.rule-top.pt-[var(--space-sm)] 712px",
+      "ul.mt-[var(--space-lg)].border-t 712px",
+      "li.border-b.border-rule 712px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 2,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2848
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 69,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "geist mono fallback",
+     "instrument serif",
+     "__nextjs-geist"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4465,
+    "margins": {
+     "left": 28,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "section.relative.flex",
+      "tag": "section",
+      "top": 0,
+      "height": 1098,
+      "words": 81,
+      "media": 0,
+      "middle": 13,
+      "heading": {
+       "text": "I build web products that",
+       "size": 81,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 63,
+      "textLeft": 0,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.scroll-mt-24",
+      "tag": "section",
+      "top": 1098,
+      "height": 662,
+      "words": 100,
+      "media": 0,
+      "middle": 36,
+      "heading": {
+       "text": "Ledgerline",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.scroll-mt-24",
+      "tag": "section",
+      "top": 1760,
+      "height": 893,
+      "words": 157,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I care less about the framework and more about whe",
+       "size": 43,
+       "tag": "p"
+      },
+      "left": 28,
+      "right": 54,
+      "textLeft": 28,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.scroll-mt-24",
+      "tag": "section",
+      "top": 2654,
+      "height": 618,
+      "words": 99,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Marketing sites that convert",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 59,
+      "textLeft": 28,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.scroll-mt-24",
+      "tag": "section",
+      "top": 3272,
+      "height": 653,
+      "words": 46,
+      "media": 0,
+      "middle": 16,
+      "heading": {
+       "text": "Tell me what you are building and what it has to a",
+       "size": 43,
+       "tag": "p"
+      },
+      "left": 28,
+      "right": 284,
+      "textLeft": 28,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.rule-top.mt-[var(--space-section)]",
+      "tag": "footer",
+      "top": 4035,
+      "height": 429,
+      "words": 14,
+      "media": 0,
+      "middle": 174,
+      "heading": {
+       "text": "Jericho",
+       "size": 93,
+       "tag": "p"
+      },
+      "left": 28,
+      "right": 99,
+      "textLeft": 28,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "I build web products that earn their keep.",
+      "size": 81,
+      "top": 175,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 7
+     },
+     {
+      "x": 57,
+      "n": 1
+     },
+     {
+      "x": 294,
+      "n": 1
+     },
+     {
+      "x": 531,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 14,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.36,
+    0.43,
+    0.5,
+    0.44,
+    0.86,
+    0.64,
+    0.46
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 5,
+    "transitions": 11,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5375,
+     "screens": 6.4,
+     "words": 551,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "chars": 42,
+     "lines": 3,
+     "size": 49.6,
+     "vw": 12.7,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.035,
+     "leading": 0.88,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.91,
+     "top": 174,
+     "mixedFonts": [
+      "Instrument Serif",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I build web products that earn their keep.",
+     "words": 8,
+     "lines": 3,
+     "size": 49.6,
+     "font": "Instrument Serif"
+    },
+    "headings": [
+     {
+      "text": "I build web products that earn their keep.",
+      "words": 8,
+      "chars": 42,
+      "lines": 3,
+      "size": 49.6,
+      "vw": 12.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 174,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "6 YRS",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 384,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "40+",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 940,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "12",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.2,
+      "top": 940,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "98",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Geist Mono",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 940,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1407,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1618,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1810,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "I care less about the framework and more about whether the thing works for the person using it.",
+      "words": 18,
+      "chars": 95,
+      "lines": 4,
+      "size": 33.8,
+      "vw": 8.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 2141,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Marketing sites that convert",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 3263,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Web applications",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 3587,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Performance & accessibility audits",
+      "words": 4,
+      "chars": 34,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 3910,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell me what you are building and what it has to achieve.",
+      "words": 12,
+      "chars": 57,
+      "lines": 3,
+      "size": 33.8,
+      "vw": 8.7,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.028,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.66,
+      "top": 4431,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "hello@example.com",
+      "words": 1,
+      "chars": 17,
+      "lines": 1,
+      "size": 25.4,
+      "vw": 6.5,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4677,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 55,
+      "vw": 14.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 5006,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0.24,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      13,
+      16,
+      18,
+      23,
+      25,
+      34,
+      50,
+      55
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 13.1,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 55,
+      "vw": 14.1,
+      "font": "Instrument Serif",
+      "text": "Jericho"
+     },
+     "monoShare": 0.24,
+     "monoProseShare": 0.24,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "·",
+      "Full-stack web developer",
+      "01",
+      "Experience",
+      "6",
+      "yrs"
+     ],
+     "microLabels": 79,
+     "microLabelShare": 0.189,
+     "microSamples": [
+      "Full-stack web developer",
+      "01",
+      "Experience",
+      "yrs",
+      "Based",
+      "Status"
+     ],
+     "upperShare": 0.24,
+     "centerShare": 0,
+     "smallText": 25
+    },
+    "eyebrows": [
+     {
+      "text": "Full-stack web developer",
+      "above": "I build web products that earn their kee",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 128
+     },
+     {
+      "text": "Experience",
+      "above": "6 YRS",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 361
+     },
+     {
+      "text": "Case study →",
+      "above": "Northward",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 1543
+     },
+     {
+      "text": "Case study →",
+      "above": "Atlas Care",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 1735
+     },
+     {
+      "text": "03",
+      "above": "I care less about the framework and more",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 2075
+     },
+     {
+      "text": "01",
+      "above": "Marketing sites that convert",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 3230
+     },
+     {
+      "text": "02",
+      "above": "Web applications",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 3553
+     },
+     {
+      "text": "03",
+      "above": "Performance & accessibility audits",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 3876
+     },
+     {
+      "text": "Available for new work",
+      "above": "Tell me what you are building and what i",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11.1,
+      "top": 4385
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11.1,
+      "top": 128
+     },
+     {
+      "text": "02",
+      "size": 11.1,
+      "top": 1204
+     },
+     {
+      "text": "01",
+      "size": 11.1,
+      "top": 1422
+     },
+     {
+      "text": "02",
+      "size": 11.1,
+      "top": 1633
+     },
+     {
+      "text": "03",
+      "size": 11.1,
+      "top": 1825
+     },
+     {
+      "text": "03",
+      "size": 11.1,
+      "top": 2075
+     },
+     {
+      "text": "04",
+      "size": 11.1,
+      "top": 3135
+     },
+     {
+      "text": "01",
+      "size": 11.1,
+      "top": 3230
+     },
+     {
+      "text": "02",
+      "size": 11.1,
+      "top": 3553
+     },
+     {
+      "text": "03",
+      "size": 11.1,
+      "top": 3876
+     },
+     {
+      "text": "05",
+      "size": 11.1,
+      "top": 4271
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0c11",
+     "bodyBgHsl": {
+      "h": 223,
+      "s": 0.26,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#282b33",
+       "top": 3201,
+       "hsl": {
+        "h": 224,
+        "s": 0.12,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#13161d",
+       "top": 3202,
+       "hsl": {
+        "h": 222,
+        "s": 0.21,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#f3f1ed",
+       "top": 4337,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a1a5ac",
+       "share": 0.56
+      },
+      {
+       "color": "#8e929a",
+       "share": 0.19
+      },
+      {
+       "color": "#f0eeea",
+       "share": 0.12
+      },
+      {
+       "color": "#0a0d13",
+       "share": 0.09
+      },
+      {
+       "color": "#f4993c",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f0eeea",
+      "hsl": {
+       "h": 40,
+       "s": 0.17,
+       "l": 0.93
+      },
+      "fg": "#0a0d13"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 41,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.-top-[18%] → radial-gradient(circle, lab(71.6167 29.8489 60.7514 / 0.14) 0%, rgba(0, 0, 0, 0) 68%)",
+      "div.absolute.-left-[12%] → radial-gradient(circle, oklab(0.760005 0.0704083 0.132451 / 0.16) 0%, rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 20,
+     "hairlineSamples": [
+      "div.mt-[var(--space-xl)].grid 354px",
+      "div.mt-[var(--space-lg)].border-y 390px",
+      "header.rule-top.pt-[var(--space-sm)] 354px",
+      "ul.mt-[var(--space-lg)].border-t 354px",
+      "li.border-b.border-rule 354px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 2,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 69,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "geist mono fallback",
+     "instrument serif",
+     "__nextjs-geist"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5375,
+    "margins": {
+     "left": 18,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "section.relative.flex",
+      "tag": "section",
+      "top": 0,
+      "height": 1104,
+      "words": 77,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I build web products that",
+       "size": 50,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 22,
+      "textLeft": 18,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.scroll-mt-24",
+      "tag": "section",
+      "top": 1104,
+      "height": 871,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ledgerline",
+       "size": 23,
+       "tag": "h3"
+      },
+      "left": 18,
+      "right": 29,
+      "textLeft": 18,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.scroll-mt-24",
+      "tag": "section",
+      "top": 1975,
+      "height": 1060,
+      "words": 157,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I care less about the framework and more about whe",
+       "size": 34,
+       "tag": "p"
+      },
+      "left": 18,
+      "right": 22,
+      "textLeft": 18,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.scroll-mt-24",
+      "tag": "section",
+      "top": 3035,
+      "height": 1136,
+      "words": 99,
+      "media": 0,
+      "middle": 13,
+      "heading": {
+       "text": "Marketing sites that convert",
+       "size": 23,
+       "tag": "h3"
+      },
+      "left": 18,
+      "right": 49,
+      "textLeft": 18,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.scroll-mt-24",
+      "tag": "section",
+      "top": 4171,
+      "height": 670,
+      "words": 46,
+      "media": 0,
+      "middle": 16,
+      "heading": {
+       "text": "Tell me what you are building and what it has to a",
+       "size": 34,
+       "tag": "p"
+      },
+      "left": 18,
+      "right": 75,
+      "textLeft": 18,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.rule-top.mt-[var(--space-section)]",
+      "tag": "footer",
+      "top": 4925,
+      "height": 450,
+      "words": 14,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Jericho",
+       "size": 55,
+       "tag": "p"
+      },
+      "left": 18,
+      "right": 84,
+      "textLeft": 18,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "I build web products that earn their keep.",
+      "size": 50,
+      "top": 174,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 18,
+      "n": 7
+     },
+     {
+      "x": 47,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 13,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "2 headline(s) wrap past two lines at 1440px: \"I build web products that earn their keep.\" → 3 lines (8 words, 135.7px); \"I care less about the framework and more about w\" → 3 lines (18 words, 60px, a paragraph set above 36px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "2 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "7 eyebrow/kicker label(s) above headings: \"Full-stack web developer\" above \"I build web products that earn their kee\"; \"Experience\" above \"6 YRS\"; \"03\" above \"I care less about the framework and more\"; \"01\" above \"Marketing sites that convert\"; \"02\" above \"Web applications\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Geist Mono — e.g. \"·\", \"Web Developer\", \"Work\", \"About\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"01\", \"01\", \"02\", \"02\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "79 tiny uppercase letter-spaced labels (e.g. \"Full-stack web developer\", \"01\", \"Experience\", \"yrs\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "2 gradient fill(s): div.absolute.-top-[18%] → radial-gradient(circle, lab(71.6167 29.8489 60.7514 / 0.14) 0%, rgba(0, 0, 0, 0) 68%) | div.absolute.-left-[12%] → radial-gradient(circle, oklab(0.760005 0.0704083 0.132451 / 0.16) 0%, rgba(0, 0, 0, 0) 70%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "3 box-shadow(s) on elements at rest: div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7 | div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7 | div.absolute.-left-[12%] → lab(7.11543 0.0978708 -7.25583 / 0.06) 0px 2px 4px 0px, lab(7.11543 0.0978708 -7",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars)."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "21 thin rule(s)/divider line(s): div.lg:col-span-4.lg:border-l 396px | div.mt-[var(--space-xl)].grid 1285px | div.mt-[var(--space-lg)].border-y 1440px | header.rule-top.pt-[var(--space-sm)] 1285px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell."
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (section #f3f1ed, button #f0eeea, text #f0eeea).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Geist, Geist Mono, Instrument Serif).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "26 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 762px of the width empty: \"Tell me what you are building and what it has to a\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"I build web products that\" (screen 1, 100% hidden); \"earn their keep\" (screen 1, 100% hidden); \"40+\" (screen 1, 100% hidden); \"Ledgerline\" (screen 2, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "3 headline(s) wrap past two lines at 390px: \"I build web products that earn their keep.\" → 3 lines (8 words, 49.6px); \"I care less about the framework and more about w\" → 4 lines (18 words, 33.8px, a paragraph set above 24px); \"Tell me what you are building and what it has to\" → 3 lines (12 words, 33.8px, a paragraph set above 24px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/desktop-page-01.jpg",
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/before/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

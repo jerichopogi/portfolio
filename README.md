@@ -1,8 +1,8 @@
 # Portfolio
 
-Editorial-engineer portfolio: serif display type on a warm paper surface, layered
-depth, and scrollytelling case studies. Light and dark are both designed; light is
-the default and the OS preference is honoured until the visitor chooses.
+A full-stack developer portfolio built to a supplied reference: near-black ground,
+code-like monospace display type, rounded cards and pill controls. Dark is the
+native scheme; light is an explicit opt-in that inverts the same four colours.
 
 ## Running it
 
@@ -23,19 +23,21 @@ All visitor-facing copy lives in `src/content/` — no text is hardcoded in comp
 
 | File | What it holds |
 |---|---|
-| `src/content/site.ts` | Name, title, hero headline, email, location, availability, services, experience, stack, nav |
-| `src/content/projects.ts` | Case studies — summary, metrics, and the problem/approach/outcome sections |
+| `src/content/site.ts` | Name, role, hero headline, email, location, availability, experience, nav |
+| `src/content/projects.ts` | Case studies: summary, metrics, and the problem/approach/outcome sections |
+| `src/content/skills.ts` | Skill groups, the work-history table and the social links |
 | `src/content/types.ts` | The shape each of the above must satisfy |
 
 Items marked `TODO` are placeholders. Replacing a case study means editing one
 object in `projects.ts`; the index row, the `/work/<slug>` page, the metadata and
 the sitemap all follow from it.
 
-### Project art
+### The one missing asset
 
-`ProjectVisual` generates an abstract composition from each project's `hue` so the
-grid reads as designed before real screenshots exist. When you have real images,
-swap that component for `next/image` with explicit `width`/`height`.
+`src/components/about/Skills.tsx` holds a labelled portrait slot. Drop a photo at
+`public/portrait.jpg` and swap the placeholder for `next/image` with explicit
+`width`/`height`. The reference leans on a black-and-white portrait, and the page
+looks unfinished without one.
 
 ## Architecture
 
@@ -52,20 +54,48 @@ src/
 
 ### Design tokens
 
-`src/styles/tokens.css` defines colour, spacing, radii, elevation and motion as
-custom properties, redeclared for dark. Colours are OKLCH and were tuned against
-measured WCAG contrast, not by eye — `--ink-faint` in particular must clear 4.5:1
-against `--paper-sunken`, the darkest light surface. `global.css` maps them into
-Tailwind's `@theme` so `text-ink-muted` and `var(--ink-muted)` are the same value.
+The art direction follows a supplied reference (a Behance full-stack developer
+portfolio). Its stated system is four colours and two typefaces, and both are
+reproduced exactly in `src/styles/tokens.css`:
+
+| Token | Value | Role |
+|---|---|---|
+| `--black` | `#121212` | Ground (dark is the native scheme) |
+| `--white` | `#f5f5f5` | Ink |
+| `--grey` | `#a6a6a6` | Muted text |
+| `--grey-dark` | `#3d3d3d` | Surfaces and lines |
+
+**Fira Code** sets the display voice (the code-like headline, section labels and
+tech lists); **Open Sans** carries the reading text, with its italic used for
+emphasis inside paragraphs. There is no accent hue: white is the accent.
+
+Dark is the default. Light is an explicit opt-in that inverts the same four
+colours, and the choice is stored and applied before first paint.
 
 Two gotchas worth knowing before editing styles:
 
 - Base element styles must stay inside `@layer base`. Unlayered CSS beats every
   Tailwind utility regardless of specificity, so an unlayered `a { color: inherit }`
   silently overrides every text colour utility on links.
-- Prefer the generated utilities (`text-accent`) over `text-[var(--accent)]`.
-  Tailwind cannot tell whether a bare `var()` is a colour or a length and may
-  resolve it as `font-size`.
+- Use the generated utilities (`text-display`, `text-ink`) rather than
+  `text-[var(--text-display)]`. Tailwind cannot tell whether a bare `var()` is a
+  colour or a length and may resolve it as the wrong property, which silently
+  drops the rule. This bit this project three times.
+
+### Deliberate departures from the taste skill
+
+`design-taste-frontend` was run on an earlier iteration of this page and its
+house rules are good defaults, but the chosen reference deliberately uses four
+things that skill bans. These are intentional and should not be "fixed":
+
+- **Monospace display type** (Fira Code) — it is the reference's whole voice.
+- **Pill buttons and outlined cards** — the reference's component language.
+- **Thin 1px rules** on cards and the work table.
+- **Decorative circular arcs** in the hero and contact backgrounds.
+
+Running `node <skill>/scripts/lint.mjs src` therefore reports 8 failures, all of
+them in that list. Everything else the skill checks (layer order, contrast,
+heading sizes, margins) is respected.
 
 ### Motion
 
@@ -82,10 +112,10 @@ revealed content is visible without JavaScript.
 Against the production build:
 
 - **axe** (WCAG 2.0/2.1/2.2 A + AA): 0 violations on the home page in both themes
-  and on a case study page, including `target-size` at 375px and 1280px.
+  and on a case study page.
 - **Keyboard**: skip link first, logical tab order, visible focus on every control.
 - **Vitals**: CLS 0, LCP/FCP well inside target locally.
-- **Bundle**: ~136 kB gzipped JS on the landing page (budget: 150 kB).
+- **Bundle**: ~138 kB gzipped JS on the landing page (budget: 150 kB).
 
 Re-check with Playwright after any significant change.
 

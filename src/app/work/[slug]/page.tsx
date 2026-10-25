@@ -3,10 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { findProject, projects } from '@/content/projects';
-import { ArrowLink } from '@/components/ui/ArrowLink';
-import { MaskedLines } from '@/components/ui/MaskedLines';
-import { CaseStudyBody } from '@/components/work/CaseStudyBody';
-import { MetricBand } from '@/components/work/MetricBand';
+import { Reveal } from '@/components/ui/Reveal';
+import { SectionLabel } from '@/components/ui/SectionLabel';
 
 type PageProps = {
   readonly params: Promise<{ readonly slug: string }>;
@@ -21,7 +19,7 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   if (!project) return { title: 'Case study not found' };
 
   return {
-    title: `${project.name} — ${project.discipline}`,
+    title: `${project.name} · ${project.discipline}`,
     description: project.summary,
     alternates: { canonical: `/work/${project.slug}` },
     openGraph: { title: project.name, description: project.summary },
@@ -38,66 +36,77 @@ const CaseStudyPage = async ({ params }: PageProps) => {
   const nextProject = projects[(currentIndex + 1) % projects.length] ?? project;
 
   return (
-    <article>
-      <header className="shell pt-[calc(var(--space-xl)*2)]">
-        <Link
-          href="/#work"
-          className="font-meta text-ink-faint transition-colors duration-[var(--duration-fast)] hover:text-accent"
-        >
-          ← All work
-        </Link>
+    <article className="px-[var(--gutter)] pt-14">
+      <Link
+        href="/#work"
+        className="mono-label transition-colors duration-[var(--duration-fast)] hover:text-ink"
+      >
+        Back to projects
+      </Link>
 
-        <h1 className="display-xl mt-[var(--space-md)] text-ink">
-          <MaskedLines lines={[project.name]} />
-        </h1>
+      <h1 className="display mt-8 text-[clamp(2.25rem,6vw,5rem)]">{project.name}</h1>
+      <p className="lede mt-6 max-w-[48ch] text-muted">{project.summary}</p>
 
-        <dl className="mt-[var(--space-lg)] grid gap-[var(--space-md)] border-t border-rule pt-[var(--space-md)] sm:grid-cols-4">
-          {[
-            { label: 'Client', value: project.client },
-            { label: 'Year', value: project.year },
-            { label: 'Role', value: project.role },
-            { label: 'Discipline', value: project.discipline },
-          ].map((item) => (
-            <div key={item.label}>
-              <dt className="font-meta text-ink-faint">{item.label}</dt>
-              <dd className="mt-[var(--space-2xs)] text-sm text-ink">
-                {item.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
-
-        <p className="lead mt-[var(--space-lg)] max-w-[52ch]">{project.summary}</p>
-
-        {project.liveUrl ? (
-          <div className="mt-[var(--space-md)]">
-            <ArrowLink href={project.liveUrl} external tone="quiet">
-              Visit live site
-            </ArrowLink>
+      <dl className="mt-12 grid gap-6 border-t border-line pt-8 sm:grid-cols-4">
+        {[
+          { label: 'Client', value: project.client },
+          { label: 'Year', value: project.year },
+          { label: 'Role', value: project.role },
+          { label: 'Discipline', value: project.discipline },
+        ].map((item) => (
+          <div key={item.label}>
+            <dt className="mono-label">{item.label}</dt>
+            <dd className="mt-1">{item.value}</dd>
           </div>
-        ) : null}
-      </header>
+        ))}
+      </dl>
 
-      <div className="shell mt-[var(--space-xl)]">
-        <MetricBand metrics={project.metrics} />
-      </div>
+      <dl className="mt-14 grid gap-5 sm:grid-cols-3">
+        {project.metrics.map((metric) => (
+          <div key={metric.label} className="rounded-[var(--radius-card)] border border-line p-6">
+            <dt className="mono-label">{metric.label}</dt>
+            <dd className="display mt-3 text-[clamp(1.75rem,4vw,2.75rem)]">{metric.value}</dd>
+          </div>
+        ))}
+      </dl>
 
-      <div className="shell mt-[var(--space-section)]">
-        <CaseStudyBody project={project} />
-      </div>
-
-      {/* Next project — keeps the visitor inside the work. */}
-      <aside className="shell mt-[var(--space-section)]">
-        <Link
-          href={`/work/${nextProject.slug}`}
-          className="group block border-t border-rule pt-[var(--space-md)]"
-        >
-          <p className="font-meta text-ink-faint">Next case study</p>
-          <p className="display-lg mt-[var(--space-xs)] text-ink transition-[color,transform] duration-[var(--duration-normal)] ease-[var(--ease-out-expo)] group-hover:translate-x-2 group-hover:text-accent">
-            {nextProject.name} →
+      <div className="mt-[var(--section-gap)] grid gap-10 lg:grid-cols-[1fr_2fr] lg:gap-16">
+        <div>
+          <SectionLabel>Stack</SectionLabel>
+          <p className="mono-list mt-4">
+            {project.stack.map((item, index) => (
+              <span key={item}>
+                {item}
+                {index < project.stack.length - 1 ? <span aria-hidden="true"> / </span> : null}
+              </span>
+            ))}
           </p>
+        </div>
+
+        <div className="grid gap-12">
+          {project.sections.map((section, index) => (
+            <Reveal as="section" key={section.heading} delay={index * 0.05}>
+              <h2 className="text-h3">{section.heading}</h2>
+              <div className="mt-4 grid gap-4">
+                {section.body.map((paragraph) => (
+                  <p key={paragraph} className="body max-w-[62ch] text-muted">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-[var(--section-gap)] border-t border-line pt-8">
+        <Link href={`/work/${nextProject.slug}`} className="group block">
+          <span className="mono-label">Next project</span>
+          <span className="display mt-2 block text-[clamp(1.75rem,4.5vw,3.5rem)] transition-transform duration-[var(--duration-normal)] ease-[var(--ease)] group-hover:translate-x-2">
+            {nextProject.name}
+          </span>
         </Link>
-      </aside>
+      </div>
     </article>
   );
 };

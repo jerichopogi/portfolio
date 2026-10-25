@@ -1,0 +1,1575 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-25T19:50:16.200Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.87,
+    0.64,
+    1,
+    0.29,
+    0.31,
+    0.89
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 1,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5360,
+     "screens": 6,
+     "words": 702,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 6,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "jericho",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 122.4,
+     "vw": 8.5,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.82,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.47,
+     "top": 137,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "jericho",
+     "words": 1,
+     "lines": 1,
+     "size": 122.4,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 122.4,
+      "vw": 8.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 137,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 2.1,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1081,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1162,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1282,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1401,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "A note from me",
+      "words": 4,
+      "chars": 14,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 2.1,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.42,
+      "top": 1870,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What you can hire me for",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 2.1,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.74,
+      "top": 2945,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell me what you are building. I will tell you what it will take.",
+      "words": 14,
+      "chars": 65,
+      "lines": 2,
+      "size": 30.7,
+      "vw": 2.1,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 4615,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      19,
+      20,
+      22,
+      24,
+      31,
+      72,
+      122
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 122.4,
+      "vw": 8.5,
+      "font": "Young Serif",
+      "text": "jericho"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#05070a",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 900,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#11151c",
+       "top": 1690,
+       "hsl": {
+        "h": 218,
+        "s": 0.24,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a7aec0",
+       "share": 0.55
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#6fd39b",
+       "share": 0.02
+      },
+      {
+       "color": "#05070a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f7941d",
+      "hsl": {
+       "h": 33,
+       "s": 0.93,
+       "l": 0.54
+      },
+      "fg": "#05070a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a project"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 29,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "young serif",
+     "source serif 4",
+     "source serif 4 fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5360,
+    "margins": {
+     "left": 40,
+     "right": 56
+    },
+    "sections": [
+     {
+      "sel": "div.relative",
+      "tag": "div",
+      "top": 0,
+      "height": 5225,
+      "words": 670,
+      "media": 0,
+      "middle": 2,
+      "heading": {
+       "text": "jericho",
+       "size": 122,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "footer.bg-[var(--field-warm)]",
+      "tag": "footer",
+      "top": 5225,
+      "height": 135,
+      "words": 10,
+      "media": 0,
+      "middle": 447,
+      "heading": null,
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2584,
+      "height": 352
+     },
+     {
+      "top": 4252,
+      "height": 360
+     }
+    ],
+    "h1s": [
+     {
+      "text": "jericho",
+      "size": 122,
+      "top": 137,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 717,
+      "n": 15
+     },
+     {
+      "x": 416,
+      "n": 5
+     },
+     {
+      "x": 40,
+      "n": 3
+     },
+     {
+      "x": 339,
+      "n": 1
+     },
+     {
+      "x": 656,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 25,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 1140,
+     "y": 120,
+     "w": 300,
+     "h": 540
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.96,
+    0.74,
+    0.82,
+    0.49,
+    0.39,
+    0.87,
+    0.93
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 1,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6434,
+     "screens": 6.3,
+     "words": 702,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 6,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "jericho",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 65.3,
+     "vw": 8.5,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.82,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.93,
+     "top": 228,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "jericho",
+     "words": 1,
+     "lines": 1,
+     "size": 65.3,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 65.3,
+      "vw": 8.5,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 228,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 1886,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 1975,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 2063,
+      "tag": "span",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      20,
+      22,
+      23,
+      25,
+      40,
+      65
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 18.3,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 65.3,
+      "vw": 8.5,
+      "font": "Young Serif",
+      "text": "jericho"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#05070a",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      },
+      {
+       "color": "#11151c",
+       "top": 1162,
+       "hsl": {
+        "h": 218,
+        "s": 0.24,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 1676,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a7aec0",
+       "share": 0.55
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#6fd39b",
+       "share": 0.02
+      },
+      {
+       "color": "#05070a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f7941d",
+      "hsl": {
+       "h": 33,
+       "s": 0.93,
+       "l": 0.54
+      },
+      "fg": "#05070a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a project"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 28,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "young serif",
+     "young serif fallback",
+     "source serif 4",
+     "source serif 4 fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6434,
+    "margins": {
+     "left": 28,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "div.relative",
+      "tag": "div",
+      "top": 0,
+      "height": 6277,
+      "words": 670,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "jericho",
+       "size": 65,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-[var(--field-warm)]",
+      "tag": "footer",
+      "top": 6277,
+      "height": 157,
+      "words": 10,
+      "media": 0,
+      "middle": 129,
+      "heading": null,
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "jericho",
+      "size": 65,
+      "top": 228,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 412,
+      "n": 12
+     },
+     {
+      "x": 28,
+      "n": 8
+     },
+     {
+      "x": 80,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 25,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.87,
+    0.87,
+    0.68,
+    0.78,
+    0.76,
+    0.51,
+    0.78,
+    0.9,
+    0.92
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 1,
+    "transitions": 19,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7084,
+     "screens": 8.4,
+     "words": 698,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 7,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 6,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "jericho",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 64,
+     "vw": 16.4,
+     "font": "Young Serif",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.82,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 152,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "jericho",
+     "words": 1,
+     "lines": 1,
+     "size": 64,
+     "font": "Young Serif"
+    },
+    "headings": [
+     {
+      "text": "jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.82,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 22.3,
+      "vw": 5.7,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1696,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ledgerline",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1769,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Northward",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1857,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Atlas Care",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1945,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "A note from me",
+      "words": 4,
+      "chars": 14,
+      "lines": 1,
+      "size": 22.3,
+      "vw": 5.7,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2261,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Jericho",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2939,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What you can hire me for",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 22.3,
+      "vw": 5.7,
+      "font": "Young Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3239,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell me what you are building. I will tell you what it will take.",
+      "words": 14,
+      "chars": 65,
+      "lines": 2,
+      "size": 22.3,
+      "vw": 5.7,
+      "font": "Source Serif 4",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5857,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Serif 4",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Young Serif",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      17,
+      18,
+      20,
+      22,
+      40,
+      64
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Serif 4",
+      "size": 17.2,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 64,
+      "vw": 16.4,
+      "font": "Young Serif",
+      "text": "jericho"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#05070a",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#000000",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0
+       }
+      },
+      {
+       "color": "#11151c",
+       "top": 982,
+       "hsl": {
+        "h": 218,
+        "s": 0.24,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 1576,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a7aec0",
+       "share": 0.56
+      },
+      {
+       "color": "#f2f3f5",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#6fd39b",
+       "share": 0.02
+      },
+      {
+       "color": "#05070a",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f7941d",
+      "hsl": {
+       "h": 33,
+       "s": 0.93,
+       "l": 0.54
+      },
+      "fg": "#05070a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 55,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a project"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "young serif",
+     "young serif fallback",
+     "source serif 4",
+     "source serif 4 fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7084,
+    "margins": {
+     "left": 21,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "div.relative",
+      "tag": "div",
+      "top": 0,
+      "height": 6875,
+      "words": 652,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "jericho",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-[var(--field-warm)]",
+      "tag": "footer",
+      "top": 6875,
+      "height": 209,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 21,
+      "right": 100,
+      "textLeft": 21,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5592,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "jericho",
+      "size": 64,
+      "top": 152,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 21,
+      "n": 23
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-real-pictures",
+   "width": 1440,
+   "message": "Only 0 real photograph(s) or clip(s); the rest are interface fragments.",
+   "fix": "Add two or more real pictures of the customer's world from scripts/assets.mjs, not stock of people at laptops."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 40px on the left, 56px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/desktop-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/desktop-page-01.jpg",
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/tablet-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/tablet-page-01.jpg",
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/mobile-fold.jpg",
+   "pages": [
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/mobile-page-01.jpg",
+    "/Users/jericho/Documents/AI Shits/Jericho Portfolio/.taste-skill/after/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

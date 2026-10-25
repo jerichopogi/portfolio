@@ -40,10 +40,3 @@ export type ExperienceEntry = {
   readonly org: string;
   readonly note: string;
 };
-
-export type Service = {
-  readonly index: string;
-  readonly title: string;
-  readonly body: string;
-  readonly deliverables: readonly string[];
-};

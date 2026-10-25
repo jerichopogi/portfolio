@@ -1,25 +1,23 @@
-import { projects } from '@/content/projects';
-import { SectionHeading } from '@/components/ui/SectionHeading';
-import { Reveal } from '@/components/ui/Reveal';
-import { ProjectRow } from './ProjectRow';
+import { SectionLabel } from '@/components/ui/SectionLabel';
+import { ProjectCarousel } from './ProjectCarousel';
+import { WorkTable } from './WorkTable';
 
 export const WorkSection = () => (
-  <section id="work" aria-labelledby="work-heading" className="scroll-mt-24">
-    <div className="shell pt-[var(--space-section)]">
-      <SectionHeading index="02" label="Selected work" id="work-heading">
-        <p className="prose-body max-w-[42ch]">
-          Three projects, each with the problem, the decisions and the measured result. The rest is
-          available on request.
-        </p>
-      </SectionHeading>
+  <section id="work" aria-labelledby="work-heading" className="relative scroll-mt-20 px-[var(--gutter)] pt-20 sm:pt-24">
+    <div className="grid gap-6 lg:grid-cols-[1fr_2fr] lg:gap-16">
+      <SectionLabel>Projects</SectionLabel>
+      <h2 id="work-heading" className="lede max-w-[46ch]">
+        Three rebuilds, each with the problem it started from and the number it moved.
+      </h2>
+    </div>
 
-      <Reveal>
-        <ul className="mt-[var(--space-lg)] border-t border-rule">
-          {projects.map((project, index) => (
-            <ProjectRow key={project.slug} project={project} index={index} />
-          ))}
-        </ul>
-      </Reveal>
+    <div className="mt-12">
+      <ProjectCarousel />
+    </div>
+
+    <div className="mt-[var(--section-gap)]">
+      <h2 className="display text-right text-[clamp(2.5rem,7vw,5.5rem)]">Work</h2>
+      <WorkTable />
     </div>
   </section>
 );

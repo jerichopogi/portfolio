@@ -1,59 +1,64 @@
 import { site, socialLinks } from '@/content/site';
-import { ArrowLink } from '@/components/ui/ArrowLink';
-import { SectionHeading } from '@/components/ui/SectionHeading';
-import { Reveal } from '@/components/ui/Reveal';
-import { StatusDot } from '@/components/ui/StatusDot';
+import { Arc } from '@/components/ui/Arc';
+import { PillLink } from '@/components/ui/PillLink';
+import { SectionLabel } from '@/components/ui/SectionLabel';
 
-/**
- * Inverted surface so the closing ask carries the most contrast on the page.
- * A mailto rather than a form: fewer steps, no spam endpoint to defend.
- */
 export const ContactSection = () => (
-  <section id="contact" aria-labelledby="contact-heading" className="scroll-mt-24">
-    <div className="shell pt-[var(--space-section)]">
-      <SectionHeading index="05" label="Contact" id="contact-heading" />
+  <section
+    id="contact"
+    aria-labelledby="contact-heading"
+    className="relative isolate scroll-mt-20 overflow-clip px-[var(--gutter)] pt-[var(--section-gap)]"
+  >
+    <Arc className="-bottom-[70%] -left-[22%] hidden lg:block" size={720} />
 
-      <Reveal>
-        <div className="mt-[var(--space-lg)] overflow-hidden rounded-[var(--radius-lg)] bg-paper-inverse p-[var(--space-lg)] text-ink-inverse">
-          <p className="font-meta flex items-center gap-[var(--space-xs)] opacity-70">
-            <StatusDot isLive={site.availability.isOpen} />
-            {site.availability.label}
-          </p>
+    <div className="relative grid gap-6 lg:grid-cols-[1fr_2fr] lg:gap-16">
+      <SectionLabel>Contacts</SectionLabel>
 
-          <p className="display-lg mt-[var(--space-md)] max-w-[22ch]">
-            Tell me what you are building and what it has to achieve.
-          </p>
+      <div>
+        <h2 id="contact-heading" className="display text-[clamp(2rem,5vw,4rem)]">
+          Let us build it
+        </h2>
 
-          <p className="mt-[var(--space-sm)] max-w-[48ch] text-sm leading-relaxed opacity-70">
-            A paragraph is enough to start. I reply within one working day with either a clear plan
-            or an honest referral if it is not my strength.
-          </p>
+        <p className="lede mt-6 max-w-[44ch] text-muted">
+          Tell me what you are building and what it has to achieve. I reply within{' '}
+          <em className="text-ink">one working day</em>, with a plan or an honest referral.
+        </p>
 
-          <div className="mt-[var(--space-lg)] flex flex-wrap items-center gap-[var(--space-md)]">
-            <a
-              href={`mailto:${site.email}`}
-              className="group font-display text-[clamp(1.5rem,1rem+2.4vw,3rem)] leading-none underline decoration-1 underline-offset-[0.18em] transition-colors duration-[var(--duration-normal)] hover:text-accent"
-            >
-              {site.email}
-            </a>
+        <div className="mt-10">
+          <PillLink href={`mailto:${site.email}`} external>
+            {site.email}
+          </PillLink>
+        </div>
+
+        <dl className="mt-14 grid gap-5 sm:grid-cols-3">
+          <div>
+            <dt className="mono-label">Based</dt>
+            <dd className="mt-1">
+              {site.location}, {site.timezone}
+            </dd>
           </div>
-
-          <ul className="mt-[var(--space-lg)] flex flex-wrap gap-[var(--space-md)] border-t border-[color-mix(in_oklab,var(--ink-inverse)_18%,transparent)] pt-[var(--space-sm)]">
-            {socialLinks.map((link) => (
-              <li key={link.label}>
+          <div>
+            <dt className="mono-label">Availability</dt>
+            <dd className="mt-1">{site.availability.detail}</dd>
+          </div>
+          <div>
+            <dt className="mono-label">Elsewhere</dt>
+            <dd className="mt-1 flex flex-wrap gap-x-4">
+              {socialLinks.map((link) => (
                 <a
+                  key={link.label}
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer me"
-                  className="font-meta opacity-60 transition-opacity duration-[var(--duration-fast)] hover:opacity-100"
+                  className="underline decoration-1 underline-offset-4 transition-colors duration-[var(--duration-fast)] hover:text-muted"
                 >
-                  {link.label} ↗
+                  {link.label}
                 </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </Reveal>
+              ))}
+            </dd>
+          </div>
+        </dl>
+      </div>
     </div>
   </section>
 );

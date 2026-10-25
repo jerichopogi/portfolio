@@ -1,73 +1,42 @@
-import { heroStats, site, stack } from '@/content/site';
-import { ArrowLink } from '@/components/ui/ArrowLink';
-import { MaskedLines } from '@/components/ui/MaskedLines';
-import { StackMarquee } from '@/components/ui/StackMarquee';
-import { HeroGlow } from './HeroGlow';
-import { HeroMeta } from './HeroMeta';
+import { site } from '@/content/site';
+import { Arc } from '@/components/ui/Arc';
+import { PillLink } from '@/components/ui/PillLink';
+import { SocialChips } from './SocialChips';
 
+/**
+ * The headline sits on two lines, the second pushed right, with the
+ * supporting paragraph tucked under the first line and the primary action
+ * level with it.
+ */
 export const Hero = () => (
-  <section
-    aria-labelledby="hero-heading"
-    className="relative flex min-h-[100svh] flex-col justify-end pt-[calc(var(--space-xl)*1.6)]"
-  >
-    <HeroGlow />
+  <section id="top" aria-labelledby="hero-heading" className="relative isolate px-[var(--gutter)] pt-14 sm:pt-20">
+    <Arc className="-right-[26%] -top-[58%] hidden lg:block" size={820} />
 
-    <div className="shell w-full">
-      <div className="grid items-end gap-[var(--space-lg)] lg:grid-cols-12">
-        {/* Display statement — 8 of 12 columns, deliberately off-centre. */}
-        <div className="lg:col-span-8">
-          <p className="font-meta mb-[var(--space-md)] flex items-center gap-[var(--space-xs)] text-ink-faint">
-            <span className="text-accent">01</span>
-            <span className="h-px w-8 bg-rule-strong" />
-            {site.role}
-          </p>
+    <div className="relative">
+      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+        <h1 id="hero-heading" className="display text-display">
+          {site.headline.lineOne}
+        </h1>
 
-          <h1 id="hero-heading" className="display-xl text-ink">
-            <MaskedLines
-              lines={[
-                site.headline.before,
-                <span key="headline-accent">
-                  <span className="display-accent">{site.headline.accent}</span>
-                  {site.headline.after}
-                </span>,
-              ]}
-            />
-          </h1>
-        </div>
-
-        {/* Meta column — the scannable facts. */}
-        <div className="lg:col-span-4 lg:border-l lg:border-rule lg:pl-[var(--space-md)]">
-          <HeroMeta />
+        <div className="shrink-0 lg:pt-6">
+          <PillLink href="#work">Projects</PillLink>
         </div>
       </div>
 
-      <div className="mt-[var(--space-xl)] grid gap-[var(--space-lg)] border-t border-rule pt-[var(--space-md)] lg:grid-cols-12">
-        <p className="lead lg:col-span-6">{site.lead}</p>
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+        <p className="lede max-w-[34ch] text-muted lg:pt-2">
+          My goal is to <em className="text-ink">write maintainable, clean and understandable code</em>, so that
+          working on what comes next is still enjoyable.
+        </p>
 
-        <div className="flex flex-wrap items-start gap-[var(--space-sm)] lg:col-span-3">
-          <ArrowLink href="/#work">See selected work</ArrowLink>
-          <ArrowLink href="/#contact" tone="quiet">
-            Start a project
-          </ArrowLink>
-        </div>
-
-        <ul className="flex gap-[var(--space-md)] lg:col-span-3 lg:justify-end">
-          {heroStats.map((stat) => (
-            <li key={stat.label}>
-              <p className="tabular text-h3 leading-none text-ink">
-                {stat.value}
-              </p>
-              <p className="font-meta mt-[var(--space-2xs)] max-w-[7rem] text-ink-faint">
-                {stat.label}
-              </p>
-            </li>
-          ))}
-        </ul>
+        <h2 aria-hidden="true" className="display text-display lg:-mt-4">
+          {site.headline.lineTwo}
+        </h2>
       </div>
     </div>
 
-    <div className="mt-[var(--space-lg)] border-y border-rule bg-paper-sunken">
-      <StackMarquee items={stack} />
+    <div className="relative mt-12 sm:mt-14">
+      <SocialChips />
     </div>
   </section>
 );

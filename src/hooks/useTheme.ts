@@ -14,8 +14,8 @@ const readStoredTheme = (): Theme | null => {
   }
 };
 
-/** The design is built dark; light is an explicit choice, not the OS default. */
-const DEFAULT_THEME: Theme = 'dark';
+/** Use the editorial light palette until a visitor chooses otherwise. */
+const DEFAULT_THEME: Theme = 'light';
 
 /**
  * Resolves the active theme and persists explicit choices. The document

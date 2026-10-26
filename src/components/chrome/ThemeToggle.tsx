@@ -1,27 +1,6 @@
 'use client';
-
 import { useTheme } from '@/hooks/useTheme';
-
-/**
- * Sits where the reference puts its language switch. The visible word is the
- * current theme, and it is contained in the accessible name so the control
- * satisfies WCAG 2.5.3 (label in name).
- */
 export const ThemeToggle = () => {
-  const { theme, isReady, toggle } = useTheme();
-  const isDark = theme === 'dark';
-  const current = isDark ? 'Dark' : 'Light';
-
-  return (
-    <button
-      type="button"
-      onClick={toggle}
-      aria-label={`${current} theme. Switch to ${isDark ? 'light' : 'dark'}.`}
-      aria-pressed={isReady ? isDark : undefined}
-      className="mono-label shrink-0 text-right leading-tight transition-colors duration-[var(--duration-fast)] hover:text-ink"
-    >
-      {/* One text node, so the visible string matches the accessible name. */}
-      <span aria-hidden="true" className="text-ink">{`${current} theme`}</span>
-    </button>
-  );
+  const { theme, toggle, isReady } = useTheme();
+  return <button className="theme-switch" type="button" onClick={toggle} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`} aria-pressed={isReady ? theme === 'dark' : undefined}><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/><path d="M12 4.5a7.5 7.5 0 0 1 0 15Z" fill="currentColor"/></svg></button>;
 };

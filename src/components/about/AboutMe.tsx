@@ -1,20 +1,10 @@
-import { site } from '@/content/site';
-import { SectionLabel } from '@/components/ui/SectionLabel';
+import { experience } from '@/content/site';
+import { Reveal } from '@/components/ui/Reveal';
 import { Skills } from './Skills';
-
 export const AboutMe = () => (
-  <section id="about" aria-labelledby="about-heading" className="relative scroll-mt-20 px-[var(--gutter)] pt-[var(--section-gap)]">
-    <div className="grid gap-6 lg:grid-cols-[1fr_2fr] lg:gap-16">
-      <SectionLabel id="about-heading">About me</SectionLabel>
-      <p className="lede max-w-[46ch]">
-        Hello! I am {site.firstName}, a <em>full-stack developer</em>. More than{' '}
-        <em>{site.yearsExperience} years</em> of experience building web products that have to work
-        on the first day and still work in the second year.
-      </p>
-    </div>
-
-    <div id="skills" className="scroll-mt-20">
-      <Skills />
-    </div>
+  <section id="about" className="about-section section-pad" aria-labelledby="about-heading">
+    <div className="about-intro"><div className="about-aside"><p className="eyebrow">03 / EXPERIENCE & APPROACH</p><div className="experience-mark"><strong>6<span> years</span></strong><span>OF BUILDING FOR THE WEB</span></div></div><Reveal><h2 id="about-heading">A developer’s mind.<br/><span>A craftsperson’s care.</span></h2><p>I’m Jericho, a web developer based in the Philippines. My six years of experience span agency work, freelance WordPress and plugin development, and leading web development teams.</p><p>Today, I’m a Web Dev Lead / Manager at A3Brands LLC, and a Digital Supervisor / Website & Server Administrator at Global 1 Media. Alongside these roles, my current professional focus includes web applications and AI. I bring both hands-on development and a team perspective to the work.</p><p>That range matters when your website has to serve a business. I think about how your team will update it, how it connects to existing tools, and what happens after it goes live. Clear scope, maintainable code, and a practical handover are part of the work.</p><a className="text-link" href="#contact">Let’s work together <span aria-hidden="true">↗</span></a></Reveal></div>
+    <div id="experience" className="experience-section"><div className="section-heading"><div><p className="eyebrow">THE JOURNEY</p><h2>From writing code.<br/><span>To leading the build.</span></h2></div><p>Six years of hands-on development,<br/>independent work, and technical leadership.</p></div><div className="experience-list">{experience.map(entry=><Reveal key={entry.role} className="experience-row"><span className="experience-period">{entry.period}</span><div><h3>{entry.role}</h3><p>{entry.note}</p></div><span className="experience-org">{entry.org}</span></Reveal>)}</div></div>
+    <div id="skills" className="skills-section"><Skills/></div>
   </section>
 );

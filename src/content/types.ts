@@ -27,6 +27,7 @@ export type Project = {
   readonly summary: string;
   readonly stack: readonly string[];
   readonly metrics: readonly Metric[];
+  readonly features: readonly string[];
   readonly liveUrl?: string;
   readonly repoUrl?: string;
   /** Hue (0-360) driving the generated placeholder visual until real art lands. */

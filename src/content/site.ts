@@ -1,69 +1,33 @@
 import type { ExperienceEntry, SocialLink } from './types';
 
-/* ---------------------------------------------------------------------------
- * EDIT ME. Every string a visitor reads lives in this folder.
- * Values marked TODO are placeholders awaiting real details.
- * ------------------------------------------------------------------------- */
-
 export const site = {
-  /** TODO: confirm how your name should appear. */
   firstName: 'Jericho',
-  lastName: 'Santos',
-  fullName: 'Jericho Santos',
-  role: 'Full-stack developer',
-  /** The headline is set on two lines, the second pushed right. */
-  headline: {
-    lineOne: 'Full-stack',
-    lineTwo: 'Developer',
-  },
-  intro: 'Hello! I am Jericho, a full-stack developer. More than six years of experience.',
-  /** TODO: real address. */
-  email: 'hello@example.com',
-  /** TODO: real domain. Drives canonical URLs, sitemap and OG tags. */
+  lastName: '',
+  fullName: 'Jericho',
+  role: 'Web Development Lead & AI Professional',
+  headline: { lineOne: 'Thoughtful code.', lineTwo: 'Useful experiences.' },
+  intro: 'Web developer with 6 years of experience in WordPress websites, custom plugins, web applications, and development leadership. Based in the Philippines, helping businesses plan and build useful digital tools.',
+  email: 'jerichogane30@gmail.com',
   url: 'https://example.com',
-  /** TODO: confirm location and timezone. */
   location: 'Philippines',
   timezone: 'GMT+8',
-  availability: {
-    isOpen: true,
-    label: 'Open to new projects',
-    detail: 'One project at a time. Booking from Q1 2027.',
-  },
+  availability: { isOpen: true, label: 'Let’s build something good', detail: 'Open to conversations about web development.' },
   yearsExperience: 6,
 } as const;
 
-export const socialLinks: readonly SocialLink[] = [
-  { label: 'Github', href: 'https://github.com/', featured: true },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/', featured: true },
-  { label: 'Telegram', href: 'https://t.me/' },
-  { label: 'Instagram', href: 'https://instagram.com/' },
-];
-
-/** TODO: replace with real history. */
+// Add verified personal profile URLs here.
+export const socialLinks: readonly SocialLink[] = [{ label: 'GitHub', href: 'https://github.com/jerichopogi', featured: true }];
 export const experience: readonly ExperienceEntry[] = [
-  {
-    period: '2024 to now',
-    role: 'Independent full-stack developer',
-    org: 'Freelance',
-    note: 'Design-led builds for founders who need the first version to be the right version.',
-  },
-  {
-    period: '2022 to 2024',
-    role: 'Senior frontend developer',
-    org: 'Product studio',
-    note: 'Led the frontend on client platforms and set the component and performance standards.',
-  },
-  {
-    period: '2020 to 2022',
-    role: 'Web developer',
-    org: 'Digital agency',
-    note: 'Shipped marketing sites and dashboards across retail, fintech and healthcare.',
-  },
+  { period: 'Present', role: 'Web Dev Lead / Manager', org: 'A3Brands LLC', note: 'Leading web development work and managing the team, bringing a development perspective to planning and delivery.' },
+  { period: 'Present', role: 'Web App & AI Professional', org: 'Professional practice', note: 'A current professional focus on web applications and AI, alongside a background in WordPress and development leadership.' },
+  { period: '2022 — Present', role: 'Digital Supervisor / Website & Server Administrator', org: 'Global 1 Media', note: 'Digital supervision alongside website and server administration, connecting development work with the day-to-day operation of web properties.' },
+  { period: '2023 — 2025', role: 'Lead Web Developer', org: 'Refuge Marketing & Consulting', note: 'A lead development role in a marketing and consulting setting, connecting technical implementation with client-facing website work.' },
+  { period: '2021 — 2025', role: 'WordPress / Plugin Developer', org: 'Freelance', note: 'Independent WordPress and plugin development, focused on extending website functionality to suit individual project requirements.' },
+  { period: '2019 — 2021', role: 'Jr Web Developer', org: 'GoCrayons', note: 'An early web development role that established the foundation for later freelance work and technical leadership.' },
 ];
-
 export const navigation = [
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#work' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Contacts', href: '#contact' },
+  { label: 'Services', href: '/#services' },
+  { label: 'Projects', href: '/#work' },
+  { label: 'About', href: '/#about' },
+  { label: 'Process', href: '/#process' },
 ] as const;

@@ -2,7 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import { site } from '@/content/site';
 import { findProject, projects } from '@/content/projects';
+import { ProjectVisual } from '@/components/work/ProjectVisual';
 import { Reveal } from '@/components/ui/Reveal';
 import { SectionLabel } from '@/components/ui/SectionLabel';
 
@@ -36,7 +38,7 @@ const CaseStudyPage = async ({ params }: PageProps) => {
   const nextProject = projects[(currentIndex + 1) % projects.length] ?? project;
 
   return (
-    <article className="px-[var(--gutter)] pt-14">
+    <article className="case-study section-pad">
       <Link
         href="/#work"
         className="mono-label transition-colors duration-[var(--duration-fast)] hover:text-ink"
@@ -44,13 +46,14 @@ const CaseStudyPage = async ({ params }: PageProps) => {
         Back to projects
       </Link>
 
-      <h1 className="display mt-8 text-[clamp(2.25rem,6vw,5rem)]">{project.name}</h1>
+      <p className="eyebrow mt-8">INDEPENDENT PROJECT CONCEPT</p>
+      <h1 className="display mt-4 text-[clamp(2.25rem,6vw,5rem)]">{project.name}</h1>
       <p className="lede mt-6 max-w-[48ch] text-muted">{project.summary}</p>
 
       <dl className="mt-12 grid gap-6 border-t border-line pt-8 sm:grid-cols-4">
         {[
-          { label: 'Client', value: project.client },
-          { label: 'Year', value: project.year },
+          { label: 'Project type', value: project.client },
+          { label: 'Collection', value: project.year },
           { label: 'Role', value: project.role },
           { label: 'Discipline', value: project.discipline },
         ].map((item) => (
@@ -61,14 +64,11 @@ const CaseStudyPage = async ({ params }: PageProps) => {
         ))}
       </dl>
 
-      <dl className="mt-14 grid gap-5 sm:grid-cols-3">
-        {project.metrics.map((metric) => (
-          <div key={metric.label} className="rounded-[var(--radius-card)] border border-line p-6">
-            <dt className="mono-label">{metric.label}</dt>
-            <dd className="display mt-3 text-[clamp(1.75rem,4vw,2.75rem)]">{metric.value}</dd>
-          </div>
-        ))}
-      </dl>
+      <div className="case-visual mt-12"><ProjectVisual variant={project.slug}/></div>
+      <div className="case-scope">
+        <div><p className="eyebrow">PROPOSED SCOPE</p><ul>{project.features.map(feature => <li key={feature}>{feature}</li>)}</ul></div>
+        <p>This is an independent project concept. The interface is illustrative; the features and development plan describe a proposed build.</p>
+      </div>
 
       <div className="mt-[var(--section-gap)] grid gap-10 lg:grid-cols-[1fr_2fr] lg:gap-16">
         <div>
@@ -99,6 +99,11 @@ const CaseStudyPage = async ({ params }: PageProps) => {
         </div>
       </div>
 
+      <aside className="case-enquiry">
+        <h2>Need something similar?</h2>
+        <p>Tell me about your business and the part of this concept that fits your needs. We can discuss the scope, integrations, and a suitable approach.</p>
+        <a className="text-link" href={`mailto:${site.email}?subject=${encodeURIComponent(`Project enquiry: ${project.name}`)}`}>Discuss your project <span aria-hidden="true">↗</span></a>
+      </aside>
       <div className="mt-[var(--section-gap)] border-t border-line pt-8">
         <Link href={`/work/${nextProject.slug}`} className="group block">
           <span className="mono-label">Next project</span>

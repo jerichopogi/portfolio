@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Fira_Code, Open_Sans } from 'next/font/google';
+import { DM_Sans, IBM_Plex_Mono } from 'next/font/google';
 import { headers } from 'next/headers';
 import type { ReactNode } from 'react';
 
@@ -9,7 +9,7 @@ import { Footer } from '@/components/chrome/Footer';
 import { Header } from '@/components/chrome/Header';
 import { THEME_STORAGE_KEY } from '@/lib/theme';
 
-const firaCode = Fira_Code({
+const firaCode = IBM_Plex_Mono({
   subsets: ['latin'],
   weight: ['400', '500'],
   variable: '--font-fira-code',
@@ -17,9 +17,9 @@ const firaCode = Fira_Code({
   preload: true,
 });
 
-const openSans = Open_Sans({
+const openSans = DM_Sans({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['400', '500', '600', '700'],
   style: ['normal', 'italic'],
   variable: '--font-open-sans',
   display: 'swap',
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f5f5f5' },
-    { media: '(prefers-color-scheme: dark)', color: '#121212' },
+    { media: '(prefers-color-scheme: light)', color: '#f6f5f0' },
+    { media: '(prefers-color-scheme: dark)', color: '#191a17' },
   ],
 };
 

@@ -1,48 +1,6 @@
-/* Fira Code sets the code-like display voice; Open Sans carries the reading
-   text, with its italic used for emphasis inside paragraphs. */
-
-.display {
-  font-family: var(--font-mono);
-  font-weight: 500;
-  letter-spacing: -0.045em;
-  line-height: 0.95;
-}
-
-.mono-label {
-  font-family: var(--font-mono);
-  font-weight: 400;
-  font-size: var(--text-small);
-  letter-spacing: 0;
-  color: var(--muted);
-}
-
-.mono-list {
-  font-family: var(--font-mono);
-  font-size: var(--text-small);
-  line-height: 1.85;
-  color: var(--muted);
-}
-
-.body {
-  font-family: var(--font-sans);
-  font-size: var(--text-body);
-  line-height: 1.6;
-  color: var(--ink);
-}
-
-.body em,
-.lede em {
-  font-style: italic;
-  font-weight: 600;
-}
-
-.lede {
-  font-family: var(--font-sans);
-  font-size: var(--text-lede);
-  line-height: 1.55;
-  color: var(--ink);
-}
-
-.quiet {
-  color: var(--muted);
-}
+.display { font-family: var(--font-sans); font-weight: 500; letter-spacing: -.055em; line-height: 1.05; }
+.mono-label, .mono-list { font-family: var(--font-mono); font-size: .75rem; color: var(--muted); }
+.mono-list { line-height: 1.85; }
+.body { font-size: 1rem; line-height: 1.7; }
+.lede { font-size: 1.125rem; line-height: 1.65; }
+.quiet { color: var(--muted); }

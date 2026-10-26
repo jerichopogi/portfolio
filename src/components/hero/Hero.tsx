@@ -1,42 +1,11 @@
+import { projects } from '@/content/projects';
 import { site } from '@/content/site';
-import { Arc } from '@/components/ui/Arc';
-import { PillLink } from '@/components/ui/PillLink';
-import { SocialChips } from './SocialChips';
-
-/**
- * The headline sits on two lines, the second pushed right, with the
- * supporting paragraph tucked under the first line and the primary action
- * level with it.
- */
+import { ProjectVisual } from '@/components/work/ProjectVisual';
 export const Hero = () => (
-  <section id="top" aria-labelledby="hero-heading" className="relative isolate px-[var(--gutter)] pt-14 sm:pt-20">
-    <Arc className="-right-[26%] -top-[58%] hidden lg:block" size={820} />
-
-    <div className="relative">
-      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
-        <h1 id="hero-heading" className="display text-display">
-          {site.headline.lineOne}
-        </h1>
-
-        <div className="shrink-0 lg:pt-6">
-          <PillLink href="#work">Projects</PillLink>
-        </div>
-      </div>
-
-      <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
-        <p className="lede max-w-[34ch] text-muted lg:pt-2">
-          My goal is to <em className="text-ink">write maintainable, clean and understandable code</em>, so that
-          working on what comes next is still enjoyable.
-        </p>
-
-        <h2 aria-hidden="true" className="display text-display lg:-mt-4">
-          {site.headline.lineTwo}
-        </h2>
-      </div>
-    </div>
-
-    <div className="relative mt-12 sm:mt-14">
-      <SocialChips />
-    </div>
+  <section id="top" className="hero" aria-labelledby="hero-heading">
+    <div className="hero-eyebrow"><span><span className="status-dot"/> WEB DEVELOPMENT LEAD & AI PROFESSIONAL</span><span>BASED IN THE PHILIPPINES · GMT+8</span></div>
+    <h1 id="hero-heading">Thoughtful code.<br/><span>Useful experiences.</span><span className="hero-asterisk" aria-hidden="true">✳</span></h1>
+    <div className="hero-bottom"><p>I’m {site.firstName}. With <strong>6 years of web development experience</strong>, I help businesses build better WordPress websites, custom plugins, web applications, and practical AI tools.</p><a className="round-link" href="#services"><span>How I can help</span><span className="circle-arrow" aria-hidden="true">↘</span></a><span className="hero-note">WordPress. Web applications.<br/>Teams. And what comes next.</span></div>
+    <div className="hero-showcase"><div className="showcase-caption"><span>IN THE DETAILS, IT ALL COMES TOGETHER.</span><span>INTERFACE EXPLORATION — 01 / {String(projects.length).padStart(2, '0')}</span></div><ProjectVisual/><div className="hero-project-label"><span><b>Ledgerline</b> &nbsp; / &nbsp; A clearer view of business.</span><a href="/work/ledgerline">Explore concept <span aria-hidden="true">↗</span></a></div></div>
   </section>
 );
